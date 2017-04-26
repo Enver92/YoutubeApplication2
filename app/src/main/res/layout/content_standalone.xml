@@ -6,15 +6,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.android.youtubeapplication.MainActivity"
-    tools:showIn="@layout/activity_main"
+    tools:context="com.example.android.youtubeapplication.StandaloneActivity"
+    tools:showIn="@layout/activity_standalone"
     android:orientation="vertical">
     <Button
-        android:id="@+id/btnPlaySingle"
+        android:id="@+id/btnPlayVideo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="@string/play_single_video"
+        android:text="@string/play_video"
         />
 
     <Button
@@ -22,6 +22,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="@string/standalone_menu"
+        android:text="@string/playlist"
         />
 </LinearLayout>
